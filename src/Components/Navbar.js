@@ -3,6 +3,8 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
+import { Link } from "react-router-dom";
+
 
 function NavBar() {
     const [expand, updateExpanded] = useState(false);
@@ -41,25 +43,35 @@ function NavBar() {
                 </Navbar.Toggle>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto" defaultActiveKey="#home">
-                        <Nav.Item>
-                            //home
-                        </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+                         Home
+                        </Nav.Link>
+                    </Nav.Item>
 
-                        <Nav.Item>
-                            //about
-                        </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+                         About
+                        </Nav.Link>
+                    </Nav.Item>
 
-                        <Nav.Item>
-                            //services
-                        </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+                         Services
+                        </Nav.Link>
+                    </Nav.Item>
 
-                        <Nav.Item>
-                            //Reviews
-                        </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+                         Reviews
+                        </Nav.Link>
+                    </Nav.Item>
 
-                        <Nav.Item>
-                            //Contact
-                        </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+                         Contact us
+                        </Nav.Link>
+                    </Nav.Item>
 
                     </Nav>
                 </Navbar.Collapse>

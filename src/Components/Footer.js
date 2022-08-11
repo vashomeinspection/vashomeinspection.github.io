@@ -8,15 +8,13 @@ function Footer() {
     return (
         <Container fluid className="footer">
             <Row>
-                <Col md="4" className="footer-copywright">
+                <Col  className="footer-designed">
                     <h4>Designed and Developed by Alexandra Salas for Vas Home Inspections LLC.</h4>
                 </Col>
-                <Col md="4" className="footer-copywright">
-                    <h4>Copyright {year} VHI</h4>
+                <Col className="footer-copywright">
+                    <h4>Copyright {year} VHI LLC. </h4>
                 </Col>
-                <Col md="4" className="footer-body">
-                    
-                </Col>
+                
             </Row>
         </Container>
     );
