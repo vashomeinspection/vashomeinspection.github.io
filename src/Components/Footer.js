@@ -12,7 +12,7 @@ function Footer() {
                     <h4>Designed and Developed by Alexandra Salas for Vas Home Inspections LLC.</h4>
                 </Col>
                 <Col md="4" className="footer-copywright">
-                    <h4>Copyright © {year} SB</h4>
+                    <h4>Copyright {year} VHI</h4>
                 </Col>
                 <Col md="4" className="footer-body">
                     
