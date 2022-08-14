@@ -116,6 +116,11 @@ html {
     font-weight: 400;
     font-size: 5rem;
   }
+  .home-title h2{
+    color: white;
+    text-align: center;    
+    font-weight: 400;
+  }
   .home-content {
     padding: 9rem 0 2rem !important;
     color: rgb(0, 0, 0);

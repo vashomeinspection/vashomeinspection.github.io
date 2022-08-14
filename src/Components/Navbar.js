@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Col from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
 
@@ -26,24 +25,24 @@ function NavBar() {
           className="justify-content-center"
           >
                 <Navbar.Brand href="/">
-                            <img src={logo} className="img-fluid logo" alt="brand" /> 
+                    <img src={logo} className="img-fluid logo" alt="brand" /> 
                 </Navbar.Brand>
  
                 <Nav className="ml-auto" defaultActiveKey="#home">         
-                    <Nav.Item>
+                    <Nav.Item href="/">
                         <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}> Home </Nav.Link>
                     </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}> About </Nav.Link>
+                    <Nav.Item >
+                        <Nav.Link as={Link} to="/about" onClick={() => updateExpanded(false)}> About </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}> Services </Nav.Link>
+                        <Nav.Link as={Link} to="/services" onClick={() => updateExpanded(false)}> Services </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}> Reviews </Nav.Link>
+                        <Nav.Link as={Link} to="/reviews" onClick={() => updateExpanded(false)}> Reviews </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}> Contact us </Nav.Link>
+                        <Nav.Link as={Link} to="/contact-us" onClick={() => updateExpanded(false)}> Contact us </Nav.Link>
                     </Nav.Item>
                 </Nav>
         </Navbar>
