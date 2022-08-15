@@ -101,7 +101,7 @@ html {
   }
   .home-section {
     position: relative;
-    z-index: -1;
+    z-index: -4;
     background-image:  url(./Assets/home-bg.jpg);
     background-position: top center;
     background-repeat: no-repeat;
@@ -121,6 +121,9 @@ html {
     text-align: center;    
     font-weight: 400;
   }
+  .home-title Button{
+    background-color: #003166;
+  }
   .home-content {
     padding: 9rem 0 2rem !important;
     color: rgb(0, 0, 0);
@@ -130,6 +133,9 @@ html {
   .home-about-section{
     color: rgb(25, 84, 174);
     background-color: aliceblue;
+  }
+  #contactButton{
+    background-color: transparent;
   }
 /*--- Home end ---*/
 
