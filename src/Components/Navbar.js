@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
+import { Container, Button, Navbar, Nav} from "react-bootstrap";
 
 
 function NavBar() {
@@ -20,15 +19,24 @@ function NavBar() {
     window.addEventListener("scroll", scrollHandler);
 
     return (
-        <Navbar
-          fixed="top"
-          className="justify-content-center"
-          >
+        <Navbar fixed="top"
+                expand="md">
+            <Container>
                 <Navbar.Brand href="/">
                     <img src={logo} className="img-fluid logo" alt="brand" /> 
                 </Navbar.Brand>
- 
-                <Nav className="ml-auto" defaultActiveKey="#home">         
+                <Navbar.Toggle
+                    aria-controls="responsive-navbar-nav"
+                    onClick={() => {
+                        updateExpanded(expand ? false : "expanded");
+                    }}
+                    >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </Navbar.Toggle>
+                <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="me-auto" defaultActiveKey="#home">         
                     <Nav.Item href="/">
                         <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}> Home </Nav.Link>
                     </Nav.Item>
@@ -45,6 +53,18 @@ function NavBar() {
                         <Nav.Link as={Link} to="/contact-us" onClick={() => updateExpanded(false)}> Contact us </Nav.Link>
                     </Nav.Item>
                 </Nav>
+                <div id="contactButton">
+                    <Button
+                        variant="outline-light"
+                        href="/contact-us"
+                        style={{ maxWidth: "250px" }}
+                        >
+                        Schedule Inspection
+                    </Button>
+                </div>
+            </Navbar.Collapse>
+        </Container>
+            
         </Navbar>
     );
 }
