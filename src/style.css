@@ -56,25 +56,90 @@ html {
 
 /*--- Navbar ---*/
   .navbar-brand {
-    color: rgb(250, 250, 250) !important;
-    
+    color: rgb(250, 250, 250) !important; 
   }
   .navbar {
     background-color: #003166 !important;
     position: fixed !important;
     padding: 0.3rem 2rem !important;
-    font-size: 1.2rem !important;  
+    font-size: 1rem !important;  
     width: 100%;
     font-weight: 500;
   }
   .logo {
-    height: 3em !important;
-    width: 3em !important;
+    height: 3.5em !important;
+    width: 3.5em !important;
+    padding: 0.3rem 0.3rem;
   }
   .navbar-nav .nav-link {
     color: white !important;
     padding-right: 2rem !important;
     padding-left: 2rem !important;
+  }
+  #contactButton{
+    background-color: transparent;
+  }
+
+  /* Nav toggle */
+  .navbar-toggler {
+    position: relative !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+  }
+  
+  .navbar-toggler span {
+    display: block !important;
+    background-color: white!important;
+    height: 4px !important;
+    width: 27px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    transform: rotate(0deg) !important;
+    left: 0 !important;
+    opacity: 1 !important;
+  }
+  
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: 0 !important;
+  }
+  
+  .navbar-toggler span:nth-child(1),
+  .navbar-toggler span:nth-child(3) {
+    transition: transform 0.35s ease-in-out !important;
+    transition: transform 0.35s ease-in-out !important;
+  }
+  
+  .navbar-toggler:not(.collapsed) span:nth-child(1) {
+    position: absolute !important;
+    left: 12px !important;
+    top: 10px !important;
+    transform: rotate(135deg) !important;
+    opacity: 0.9 !important;
+  }
+  
+  .navbar-toggler:not(.collapsed) span:nth-child(2) {
+    height: 12px !important;
+    visibility: hidden !important;
+    background-color: transparent !important;
+  }
+  
+  .navbar-toggler:not(.collapsed) span:nth-child(3) {
+    position: absolute !important;
+    left: 12px !important;
+    top: 10px !important;
+    transform: rotate(-135deg) !important;
+    opacity: 0.9 !important;
+  }
+  @media (max-width: 767px) {
+    .navbar {
+      padding: 1rem 2rem !important;
+      font-size: 1.4rem !important;
+      background-color: #003166 !important;
+    }
+    .navbar-nav .nav-item a::after {
+      display: none !important;
+    }
   }
   /* line animation under the nav items */
   .navbar-nav .nav-item a::after {
@@ -93,6 +158,7 @@ html {
   .navbar-nav .nav-item a:hover::after {
     width: 100%;
   }
+
 /*--- Navbar end ---*/
 
 /*--- Home ---*/
@@ -133,9 +199,7 @@ html {
     color: rgb(25, 84, 174);
     background-color: aliceblue;
   }
-  #contactButton{
-    background-color: transparent;
-  }
+
 /*--- Home end ---*/
 
 /*--- Footer ---*/
