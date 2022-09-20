@@ -1,16 +1,4 @@
-html {
-    --section-background-color: linear-gradient(
-      to bottom left,
-      rgba(17, 16, 16, 0.582),
-      rgba(12, 8, 24, 0.904)
-    );
-  
-    --image-gradient: linear-gradient(
-      to bottom left,
-      rgba(17, 16, 16, 0.678),
-      rgba(12, 10, 22, 0.863)
-    );
-  }
+
 
 /*--- Preloader ---*/
   #preloader {
@@ -20,7 +8,7 @@ html {
     width: 100%;
     height: 100%;
     z-index: 999999;
-    background-color: #4368e3;
+    background-color: #214164;
     background-image: url(./Assets/pre.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -56,7 +44,7 @@ html {
 
 /*--- Navbar ---*/
   .navbar-brand {
-    color: rgb(250, 250, 250) !important; 
+    color:  rgb(250, 250, 250) !important; 
   }
   .navbar {
     background-color: #003166 !important;
@@ -75,9 +63,6 @@ html {
     color: white !important;
     padding-right: 2rem !important;
     padding-left: 2rem !important;
-  }
-  #contactButton{
-    background-color: transparent;
   }
 
   /* Nav toggle */
@@ -169,7 +154,6 @@ html {
     position: relative;
     z-index: -4;
     background-image:  url(./Assets/home-bg.jpg);
-    background-position: top center;
     background-repeat: no-repeat;
     padding-bottom: 30px !important;
     padding-top: 30px !important;
@@ -177,34 +161,40 @@ html {
   }
   .home-title h1{
     padding: 15rem 0 2rem !important;
-    color: white;
+    color: #003166;
     text-align: center;    
-    font-weight: 400;
+    font-weight: 600;
     font-size: 5rem;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   }
   .home-title h2{
-    color: white;
+    color: #003166;
     text-align: center;    
-    font-weight: 400;
-  }
-  .home-title Button{
-    background-color: #003166;
+    font-weight: 700;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   }
   .home-content {
-    padding: 9rem 0 2rem !important;
     color: rgb(0, 0, 0);
     text-align: left;
   }
+  Image{
+    justify-content: center;
+    position: relative;
+    z-index: -4;
+    padding-bottom: 2px !important;
+    padding-top: 2px !important;
+
+  }
   .home-about-section{
     color: rgb(25, 84, 174);
-    background-color: aliceblue;
+    background-color: white;
   }
 
 /*--- Home end ---*/
 
 /*--- Footer ---*/
   .footer {
-    background-color: rgb(10, 4, 22);
+    background-color: #003166;
     bottom: 0 !important;
     padding-top: 10px !important;
     padding-bottom: 8px !important ;

@@ -7,9 +7,9 @@ function Type() {
       options={{
         strings: [
           "Certified Inspector You Can Count on",
-          "Detailed and Thorough Inspections and Reports",
+          "Thorough, Detailed Inspections and Reports",
           "Reliable Reports You Can Understand",
-          "Family Owned and Operated Assisting SWFL",
+          "Family Owned and Operated",
         ],
         autoStart: true,
         loop: true,

@@ -4,6 +4,8 @@ import serviceArea from "../../Assets/serviceAreas.png";
 import locationIcon from "../../Assets/icons/locationIcon.svg";
 import inspect from "../../Assets/icons/inspect.svg";
 import Card from "react-bootstrap/Card";
+import cert from "../../Assets/certification.jpg";
+
 
 function HomeBody() {
   return (
@@ -11,6 +13,13 @@ function HomeBody() {
       <Container>
         <Row>
         <Container className="home-content">
+          <Col className="home-certs"> 
+            <img
+              src={cert}
+              alt="certification"
+              style={{ alignSelf: 'center' }}
+            />
+          </Col>
           <h1>About</h1>
             <h3>
               We're here for you
