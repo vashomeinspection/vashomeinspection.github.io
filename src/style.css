@@ -1,5 +1,4 @@
 
-
 /*--- Preloader ---*/
   #preloader {
     position: fixed;
@@ -164,7 +163,7 @@
     color: #003166;
     text-align: center;    
     font-weight: 600;
-    font-size: 5rem;
+    font-size: 6rem;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   }
   .home-title h2{
@@ -177,18 +176,42 @@
     color: rgb(0, 0, 0);
     text-align: left;
   }
-  Image{
-    justify-content: center;
-    position: relative;
-    z-index: -4;
-    padding-bottom: 2px !important;
-    padding-top: 2px !important;
-
-  }
   .home-about-section{
     color: rgb(25, 84, 174);
     background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
+
+  .home-about-section h1{
+    font-weight: 100;
+    font-size: 36pt;
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+    padding: 1rem;
+  }
+
+  .home-about-section h4{
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+  }
+  
+.services-card-view{
+  box-shadow: 0 0 0 4px #003166 !important;
+  color: black !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+}
+
+  .home-image{
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+  }
+
 
 /*--- Home end ---*/
 
@@ -215,23 +238,6 @@
   }
 /*--- Footer end ---*/
 
-/*--- Projects ---*/
-  .project-section {
-    position: relative !important;
-    padding-top: 150px !important;
-    padding-bottom: 30px !important;
-    background-image: var(--section-background-color) !important;
-  }
-
-/*--- Projects end ---*/
-
-/* --- About --- */
-  .about-section {
-    position: relative !important;
-    padding-top: 150px !important;
-    padding-bottom: 30px !important;
-    background-image: var(--section-background-color) !important;
-    color: white !important;
-  }
+/* --- About Page --- */
 
 /*--- About end ---*/

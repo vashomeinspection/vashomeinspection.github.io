@@ -57,7 +57,7 @@ function NavBar() {
                     <Button
                         variant="outline-light"
                         href="/contact-us"
-                        style={{ maxWidth: "250px" }}
+                        style={{ width: "215px" }}
                         >
                         Schedule Inspection
                     </Button>
