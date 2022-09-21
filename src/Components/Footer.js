@@ -9,7 +9,6 @@ function Footer() {
         <Container fluid className="footer">
             <Row>
                 <Col  className="footer-designed">
-                    <h4>Designed and Developed by Alexandra Salas for Vas Home Inspections LLC.</h4>
                 </Col>
                 <Col className="footer-copywright">
                     <h4>Copyright {year} VHI LLC. </h4>
