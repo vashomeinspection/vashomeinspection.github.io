@@ -1,3 +1,8 @@
+html {
+  --section-background-color: white;
+
+  --imp-text-color: black;
+}
 
 /*--- Preloader ---*/
   #preloader {
@@ -49,7 +54,7 @@
     background-color: #003166 !important;
     position: fixed !important;
     padding: 0.3rem 2rem !important;
-    font-size: 1rem !important;  
+    font-size: 1.3rem !important;  
     width: 100%;
     font-weight: 500;
   }
@@ -172,7 +177,7 @@
     font-weight: 700;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   }
-  .home-content {
+  .content {
     color: rgb(0, 0, 0);
     text-align: left;
   }
@@ -209,7 +214,7 @@
   .home-image{
     display:flex;
     justify-content:center;
-    align-items:center; 
+    align-items:center;
   }
 
 
@@ -239,5 +244,27 @@
 /*--- Footer end ---*/
 
 /* --- About Page --- */
+.about-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-color: white;
+  color: black !important;
+}
+.about-section h1{
+  font-weight: 100;
+  font-size: 36pt;
+  padding: 0 1rem 0 1rem ;
+}
+ h2{
+  padding-bottom: 1rem;
+
+}
+.cert-image{
+  display:flex;
+  justify-content:center;
+  align-items:center; 
+  padding-top: 15px;
+}
 
 /*--- About end ---*/

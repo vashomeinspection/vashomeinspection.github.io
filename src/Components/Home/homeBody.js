@@ -16,7 +16,7 @@ function HomeBody() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Container className="home-content">
+          <Container className="content">
             {/***** Certifications *****/}
             <Row>
               <div class="home-image">
@@ -38,11 +38,11 @@ function HomeBody() {
                 />
               </Col>
               <Col md={7} style={{paddingRight:"1rem"}}>
-                  <h3>
+                  <h2>
                     Title // something like We're here for you
-                  </h3>
+                  </h2>
                   
-                    <h5>
+                    <h5 style={{paddingBottom:"1rem", paddingLeft: "1rem"}}>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -59,6 +59,7 @@ function HomeBody() {
                     <Button
                       variant="outline-dark"
                       href="/about"
+                      style={{minWidth:"200px", justifyContent:"right"}}
                       >
                       Learn more
                     </Button>
