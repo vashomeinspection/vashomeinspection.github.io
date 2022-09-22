@@ -14,7 +14,7 @@ import ScrollToTop from "./Components/ScrollTop.js";
 import Home from "./Components/Home/home";
 import About from "./Components/About/about";
 import Contact from "./Components/Contact/contact";
-import Reviews from "./Components/Reviews/reviews";
+import Pricing from "./Components/Pricing/pricing";
 import Services from "./Components/Services/services";
 
 import "./style.css";
@@ -43,7 +43,7 @@ function App() {
                     <Route path="/about" element={<About />} />
                     <Route path="/services" element={<Services />} />
                     <Route path="/contact-us" element={<Contact />} />
-                    <Route path="/reviews" element={<Reviews />} />
+                    <Route path="/pricing" element={<Pricing />} />
                     <Route path="*" element={<Navigate to="/" />} />
                 </Routes>
                 <Footer />

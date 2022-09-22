@@ -47,7 +47,7 @@ function NavBar() {
                         <Nav.Link as={Link} to="/services" onClick={() => updateExpanded(false)}> Services </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link as={Link} to="/reviews" onClick={() => updateExpanded(false)}> Reviews </Nav.Link>
+                        <Nav.Link as={Link} to="/pricing" onClick={() => updateExpanded(false)}> Pricing </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link as={Link} to="/contact-us" onClick={() => updateExpanded(false)}> Contact us </Nav.Link>
