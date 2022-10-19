@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
-import { Container, Button, Navbar, Nav} from "react-bootstrap";
+import { Container, Button, Navbar, Nav, Image} from "react-bootstrap";
 
 
 function NavBar() {
@@ -21,9 +21,10 @@ function NavBar() {
     return (
         <Navbar fixed="top"
                 expand="md">
+           
             <Container>
                 <Navbar.Brand href="/">
-                    <img src={logo} className="img-fluid logo" alt="brand" /> 
+                    <Image src={logo} className="img-fluid logo" alt="brand" /> 
                 </Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"
@@ -57,7 +58,8 @@ function NavBar() {
                     <Button
                         variant="outline-light"
                         href="/contact-us"
-                        style={{ width: "215px" }}
+                        style={{ width: "12rem"}}
+                        id="contactButton"
                         >
                         Schedule Inspection
                     </Button>
