@@ -155,12 +155,71 @@
 /*--- Navbar end ---*/
 
 /*--- Home ---*/
+.home-header {
+  padding-top: 80px !important;
+}
+.home-section {
+  position: relative;
+  z-index: -4;
+  background-image:  url(./Assets/home-bg.jpg);
+  background-repeat: no-repeat;
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+  height: 600px;
+}
+.home-title h1{
+  padding: 15rem 0 2rem !important;
+  color: #003166;
+  text-align: center;    
+  font-weight: 600;
+  font-size: 6rem;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.home-title h2{
+  color: #003166;
+  text-align: center;    
+  font-weight: 700;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.home-content {
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+.home-about-section{
+  color: rgb(25, 84, 174);
+  background-color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display:flex;
+  justify-content:center;
+  align-items:center; 
+}
 
-  .home-image{
-    display:flex;
-    justify-content:center;
-    align-items:center; 
-  }
+.home-about-section h1{
+  font-weight: 100;
+  font-size: 36pt;
+  padding: 1rem;
+}
+.home-about-section h2{
+  font-weight: 100;
+  padding: 1rem;
+
+}
+
+
+.services-card-view{
+box-shadow: 0 0 0 4px #003166 !important;
+color: black !important;
+background-color: transparent !important;
+opacity: 0.9 !important;
+transition: all 0.5s ease 0s !important;
+}
+
+.home-image{
+  display:flex;
+  justify-content:center;
+  align-items:center; 
+}
   @media (max-width: 1000px) {
   .home-header {
     padding-top: 60px !important;

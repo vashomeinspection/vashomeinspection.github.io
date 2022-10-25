@@ -151,7 +151,7 @@ function HomeBody() {
                         alt="First slide"
                       />
                       <Carousel.Caption>
-                      <h1 style={{color:"black"}}>"Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet."</h1>
+                      <h2 style={{color:"black"}}>"Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet."</h2>
                       </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -161,7 +161,7 @@ function HomeBody() {
                         alt="First slide"
                       />
                       <Carousel.Caption>
-                      <h1 style={{color:"black"}}>"Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet."</h1>
+                      <h2 style={{color:"black"}}>"Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet."</h2>
                       </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -171,7 +171,7 @@ function HomeBody() {
                         alt="First slide"
                       />
                       <Carousel.Caption>
-                      <h1 style={{color:"black"}}>"Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet."</h1>
+                      <h2 style={{color:"black"}}>"Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet."</h2>
                       </Carousel.Caption>
                     </Carousel.Item>
                   </Carousel>
